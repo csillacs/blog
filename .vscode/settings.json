@@ -1,0 +1,20 @@
+{
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_flask_sqlalchemy",
+        "pylint_flask",
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "meta.function-call.generic.python",
+                "settings": {
+                    "foreground": "#DCDCAA"
+                }
+            }
+        ]
+    },
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+}
