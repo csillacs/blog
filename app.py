@@ -62,4 +62,3 @@ admin.add_view(TagAdminView(Tag, db.session))
 
 user_datastore  = SQLAlchemyUserDatastore(db, User, Role)
 security = Security(app, user_datastore)
-# user = user_datastore.create_user(email='omniakurssi@yahoo.com', password='kurssi123456')
