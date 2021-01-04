@@ -1,8 +1,9 @@
 # blog
 
 Description: School project, a basic blog, where admin can login, add, edit and delete posts.
-Python 3.9 
-Flask
+Python 3.9, 
+Flask,
+PostgreSQL.
 
 Dependencies for the virtual environment are to be found in the requirements.txt file.
 
